@@ -1,0 +1,17 @@
+﻿<Window x:Name="ReplayWindow1" x:Class="Badminton_SW_v1._0.ReplayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="اعادة عرض"  Height="360" Width="692" Icon="Imgs/icon.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="117*" />
+            <RowDefinition Height="477*" />
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Margin="12,10,0,40" Name="imgReplayImage" Width="433" Grid.RowSpan="2" />
+        <Button Content="ابدأ اعادة العرض" FontSize="20" Height="63" HorizontalAlignment="Left"  Name="btnReplay" VerticalAlignment="Top" Width="148" Background="#FFFFFF" Click="btnReplay_Click" Margin="517,13,0,0" Grid.RowSpan="2"  />
+        <Label Content="حالة العرض:" FontSize="16" FontStyle="Italic" Foreground="Red"  FontWeight="Heavy" Height="43" HorizontalAlignment="Right" Name="angleLabel" VerticalAlignment="Top" Width="245" Grid.Row="1" FlowDirection="RightToLeft" Margin="0,10,10,0" />
+        <Label Content="عدد الهياكل:" Height="33" HorizontalAlignment="Left" FontSize="16" FontStyle="Oblique" Name="frameNo" VerticalAlignment="Top" Width="153" Grid.Row="1" FlowDirection="RightToLeft" Margin="512,53,0,0" />
+        <Button x:Name="pauseBtn" Content="Pause" HorizontalAlignment="Left" Margin="431,22,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click" Height="26" FontSize="16"/>
+        <Button x:Name="back" Content="&lt;&lt;" HorizontalAlignment="Left" Margin="431,53,0,0" VerticalAlignment="Top" Width="81" Grid.RowSpan="2" Click="back_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\bin\Release\Badminton SW v1.0.exe.config
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\bin\Release\Badminton SW v1.0.exe
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\bin\Release\Badminton SW v1.0.pdb
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0.csprojResolveAssemblyReference.cache
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\MainWindow.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\PlayTutorialWindow.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\PracticeWindow.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\RecordingWindow.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\ReplayWindow.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\MainWindow.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\PlayTutorialWindow.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\PracticeWindow.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\RecordingWindow.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\ReplayWindow.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\App.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0_Content.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0_MarkupCompile.cache
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0.g.resources
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton_SW_v1._0.Properties.Resources.resources
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0.csproj.GenerateResource.Cache
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0.exe
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\Badminton SW v1.0.pdb
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\3rdPage.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\2ndPage.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\ReplayWindowForPractice.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\WelcomePage.baml
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\3rdPage.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\2ndPage.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\ReplayWindowForPractice.g.cs
+D:\Projects\Badminton\Badminton SW v1.0\Badminton SW v1.0\obj\Release\WelcomePage.g.cs

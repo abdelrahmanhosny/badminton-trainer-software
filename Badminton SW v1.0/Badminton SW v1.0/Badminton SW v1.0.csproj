@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDD84744-CB5D-483D-8141-583D299AAF4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Badminton_SW_v1._0</RootNamespace>
+    <AssemblyName>Badminton SW v1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Kinect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="3rdPage.xaml.cs">
+      <DependentUpon>3rdPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="2ndPage.xaml.cs">
+      <DependentUpon>2ndPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FileManipulation.cs" />
+    <Compile Include="PlayTutorialWindow.xaml.cs">
+      <DependentUpon>PlayTutorialWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeWindow.xaml.cs">
+      <DependentUpon>PracticeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecordingWindow.xaml.cs">
+      <DependentUpon>RecordingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReplayWindow.xaml.cs">
+      <DependentUpon>ReplayWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReplayWindowForPractice.xaml.cs">
+      <DependentUpon>ReplayWindowForPractice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="3rdPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="2ndPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PlayTutorialWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PracticeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RecordingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReplayWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReplayWindowForPractice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WelcomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imgs\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imgs\record.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Imgs\practice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imgs\pause icon.png" />
+    <Resource Include="Imgs\play icon.png" />
+    <Resource Include="Imgs\stop icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imgs\court.JPG" />
+    <Content Include="Tutorials\Backhand\1.mp4" />
+    <Content Include="Tutorials\Backhand\2.mpg" />
+    <Content Include="Tutorials\Backhand\3.mp4" />
+    <Content Include="Tutorials\Backhand\4.mp4" />
+    <Content Include="Tutorials\Backhand\5.mp4" />
+    <Content Include="Tutorials\Backhand\6.mp4" />
+    <Content Include="Tutorials\Backhand\7.mp4" />
+    <Content Include="Tutorials\Backhand\8.flv" />
+    <Content Include="Tutorials\Backhand\9.mp4" />
+    <Content Include="Tutorials\Doubel\1.mp4" />
+    <Content Include="Tutorials\Doubel\2.mp4" />
+    <Content Include="Tutorials\Doubel\3.mp4" />
+    <Content Include="Tutorials\Footwork\1.mp4" />
+    <Content Include="Tutorials\Footwork\2.mp4" />
+    <Content Include="Tutorials\Footwork\3.mp4" />
+    <Content Include="Tutorials\Footwork\4.mp4" />
+    <Content Include="Tutorials\Footwork\5.mp4" />
+    <Content Include="Tutorials\Footwork\6.mp4" />
+    <Content Include="Tutorials\Forehand\1.mp4" />
+    <Content Include="Tutorials\Forehand\2.mp4" />
+    <Content Include="Tutorials\Forehand\3.mp4" />
+    <Content Include="Tutorials\Forehand\4.mp4" />
+    <Content Include="Tutorials\Forehand\5.mp4" />
+    <Content Include="Tutorials\Forehand\6.mp4" />
+    <Content Include="Tutorials\Forehand\7.mp4" />
+    <Content Include="Tutorials\Forehand\8.mp4" />
+    <Content Include="Tutorials\Forehand\9.mp4" />
+    <Content Include="Tutorials\How to Grip the Raquet and Use Wrist\1.mp4" />
+    <Content Include="Tutorials\How to Grip the Raquet and Use Wrist\2.mp4" />
+    <Content Include="Tutorials\How to Grip the Raquet and Use Wrist\3.mp4" />
+    <Content Include="Tutorials\How to Grip the Raquet and Use Wrist\4.mp4" />
+    <Content Include="Tutorials\Power\1.mp4" />
+    <Content Include="Tutorials\Power\2.mp4" />
+    <Content Include="Tutorials\Power\3.mp4" />
+    <Content Include="Tutorials\Power\4.mp4" />
+    <Content Include="Tutorials\Serve\1.flv" />
+    <Content Include="Tutorials\Serve\2.flv" />
+    <Content Include="Tutorials\Serve\3.mp4" />
+    <Content Include="Tutorials\Serve\4.flv" />
+    <Content Include="Tutorials\Serve\5.mp4" />
+    <Content Include="Tutorials\Serve\6.mp4" />
+    <Content Include="Tutorials\Serve\7.mp4" />
+    <Content Include="Tutorials\Serve\8.flv" />
+    <Content Include="Tutorials\Serve\9.flv" />
+    <Content Include="Tutorials\Training\1.mp4" />
+    <Content Include="Tutorials\Training\2.mp4" />
+    <Content Include="Tutorials\Training\3.mp4" />
+    <Content Include="Tutorials\Training\4.mp4" />
+    <Content Include="Tutorials\Training\5.mp4" />
+    <Content Include="Tutorials\Training\6.mp4" />
+    <Content Include="Tutorials\Training\7.mp4" />
+    <Content Include="Tutorials\Training\8.mp4" />
+    <Content Include="Tutorials\Training\9.mp4" />
+    <Content Include="Tutorials\Warm Up\1.mp4" />
+    <Content Include="Tutorials\Warm Up\2.mp4" />
+    <Content Include="Tutorials\Warm Up\3.mp4" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

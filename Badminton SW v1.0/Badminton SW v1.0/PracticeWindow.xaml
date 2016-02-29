@@ -1,0 +1,22 @@
+﻿<Window x:Name="PracticeWindow1" x:Class="Badminton_SW_v1._0.PracticeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="شاشة التدريب" Height="718" Width="1055" Icon="Imgs/icon.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="PracticeWindow1_Loaded" Closing="PracticeWindow1_Closing">
+
+    <Grid Height="676" Margin="0,6,-241,7">
+        <Image Name="imgLiveImage" Margin="33,0,663,74" />
+        <Button Content="ابدأ التدريب" Height="67" FontSize="20" Name="startButton" VerticalAlignment="Top" Foreground="Brown" Margin="671,35,433,0" Background="White" Click="startButton_Click" />
+        <Label Content="النتيجة" Height="50" HorizontalAlignment="Left" FontSize="24" FontStyle="Normal" Foreground="Red"  Margin="339,616,0,0" Name="result" VerticalAlignment="Top" Width="684" FlowDirection="RightToLeft"/>
+        <TextBox Height="417" HorizontalAlignment="Right" Margin="0,133,256,0" Name="textBox1" VerticalAlignment="Top" Width="352" FontStyle="Normal"  FontFamily="Tahoma" Foreground="DarkBlue" FlowDirection="RightToLeft" TextWrapping="Wrap"/>
+        <CheckBox x:Name="CheckFoot" Content="تأكد من ملامسة الأرجل للأرض" HorizontalAlignment="Left" Margin="811,569,0,0" VerticalAlignment="Top" FlowDirection="RightToLeft" FontSize="14" Checked="CheckFoot_Checked" Unchecked="CheckFoot_Unchecked" Width="212" Height="23"/>
+        <Label x:Name="FootErrorLabel" Content=" " HorizontalAlignment="Left" Margin="763,590,0,0" VerticalAlignment="Top" FlowDirection="RightToLeft" Width="259"/>
+        <RadioButton Content="الذراع الأيمن" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="905,76,0,0" VerticalAlignment="Top" FontSize="20" Checked="RadioButton_Checked"/>
+        <RadioButton Content="الذراع الأيسر" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="906,102,0,0" VerticalAlignment="Top" FontSize="20" Checked="RadioButton_Checked_1"/>
+        <Ellipse x:Name="flagEllipse" Fill="Red" HorizontalAlignment="Left" Height="70" Margin="22,573,0,0" Stroke="Black" VerticalAlignment="Top" Width="70"/>
+        <Slider x:Name="velocitySens" HorizontalAlignment="Left" Margin="888,10,0,0" VerticalAlignment="Top" Width="26" Maximum="0.5" Minimum="0.01" TickFrequency="0.02" SmallChange="0.01" Value="0.15" ValueChanged="velocitySens_ValueChanged" Orientation="Vertical" Height="61"/>
+        <Label Content="دقة استشعار الحركة" HorizontalAlignment="Left" Margin="906,38,0,0" VerticalAlignment="Top" Width="117"/>
+        <CheckBox Content="تفعيل نظام التدريب" HorizontalAlignment="Left" Margin="905,23,0,0" VerticalAlignment="Top" FlowDirection="RightToLeft" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Button Name ="anotherBtn" Content="اعادة عرض حركة المتدرب" HorizontalAlignment="Left" Margin="119,573,0,0" VerticalAlignment="Top" Width="127" Height="41" Click="Button_Click"/>
+        <Button x:Name ="anotherBtn_Copy" Content="اعادة عرض الحركة الأصلية" HorizontalAlignment="Left" Margin="119,622,0,0" VerticalAlignment="Top" Width="127" Height="41" Click="anotherBtn_Copy_Click"/>
+    </Grid>
+</Window>

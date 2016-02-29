@@ -1,0 +1,15 @@
+﻿<Window x:Name="RecordingWindow1" x:Class="Badminton_SW_v1._0.RecordingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="تسجيل حركة" Height="596" Width="739" Icon="Imgs/icon.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closing="RecordingWindow1_Closing">
+    <Grid Width="694" Height="573">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300*" />
+            <ColumnDefinition Width="401*" />
+        </Grid.ColumnDefinitions>
+        <Image Name="imgLiveImage" Margin="24,0,158,73" Grid.ColumnSpan="2" />
+        <Button Content="ابدأ التسجيل" Height="51" FontSize="18" Name="recordButton" VerticalAlignment="Top" Width="131" Foreground="Brown" Margin="266,10,0,0" Grid.Column="1" FlowDirection="RightToLeft" Background="White" Click="recordButton_Click" />
+        <Label Content="وضع التسجيل: جاهز" Height="41" HorizontalAlignment="Right" Margin="0,0,0,26" Name="lblRecordingStatus" VerticalAlignment="Bottom" Width="692" FontSize="20" Foreground="Brown" Grid.ColumnSpan="2" FlowDirection="RightToLeft" />
+        <Button Content="اعد عرض التسجيل" Height="51" FontSize="18" x:Name="replayButton" VerticalAlignment="Top" Foreground="Brown" Margin="248,78,0,0" Grid.Column="1" FlowDirection="RightToLeft" Background="White" Click="replayButton_Click" />
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<Window x:Class="Badminton_SW_v1._0.PlayTutorialWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="عرض فيديو" Height="512.819" Width="747" Icon="Imgs/icon.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <Grid>
+        <MediaElement Name="videoPlayer" HorizontalAlignment="Center" Height="360" VerticalAlignment="Top" Width="640" Stretch="None" LoadedBehavior ="Manual"/>
+        <Image Name="playBtn" HorizontalAlignment="Left" Height="58" Margin="238,403,20,20" VerticalAlignment="Top" Width="59" Source="Imgs/play icon.png" MouseLeftButtonDown="playBtn_MouseLeftButtonDown"/>
+        <Image x:Name="pauseBtn" HorizontalAlignment="Left" Height="58" Margin="317,403,0,0" VerticalAlignment="Top" Width="59" Source="Imgs/pause icon.png" MouseLeftButtonDown="pauseBtn_MouseLeftButtonDown"/>
+        <Image x:Name="stopBtn" HorizontalAlignment="Left" Height="58" Margin="399,403,0,0" VerticalAlignment="Top" Width="59" Source="Imgs/stop icon.jpg" MouseLeftButtonDown="stopBtn_MouseLeftButtonDown"/>
+
+    </Grid>
+</Window>
